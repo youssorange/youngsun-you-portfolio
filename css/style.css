@@ -1,0 +1,142 @@
+html, body {
+    margin-left: 0;
+    margin-right: 0;
+    margin-top: 0;
+  margin-bottom: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+    box-sizing: border-box;
+}
+
+
+body {
+  font-family: 'Roboto', sans-serif;
+  font-size: 16px;
+  color: #838994;
+  letter-spacing: 0.03em;
+  -webkit-font-smoothing: antialiased;
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    vertical-align: baseline;
+    box-sizing: border-box;
+}
+
+
+ol, ul {
+    list-style: none;
+}
+
+
+.content {
+  margin: 0 auto;
+  padding: 0 0.938rem;
+
+}
+
+/**
+* Fixed Header - Top Logo
+*/
+
+.fixed-header {
+  position: fixed;
+  display: block;
+  top: 0;
+  width: 100%;
+  margin: 0 auto;
+  z-index: 10;
+}
+
+header .logo {
+  padding: 1rem 2rem;
+}
+
+.introduction,
+.about {
+    text-align: center;
+}
+
+.introduction {
+    padding: 6em 0;
+    background-image: url("https://images.unsplash.com/photo-1443479579455-1860f114bf77?q=80&fm=jpg&s=dc7000360dec6e5368d1ed3e4d0b38ae");
+    background-position: center bottom;
+    background-repeat: no-repeat;
+    background-size: cover;
+    overflow: auto;
+    height: 30rem;
+}
+
+.introduction h3 {
+  margin-top: 12rem;
+  color: white;
+} 
+
+
+/**
+* About section
+*/
+.about h4 {
+  color: black;
+  margin:7rem 0;
+  line-height: 2em;
+  padding:0 1rem;
+}
+
+.about .content {
+  max-width: 42rem;
+}
+
+/**
+* Project section
+*/
+
+.recent-projects {
+  background: yellow;
+  overflow: hidden;
+  clear:both;
+}
+
+.recent-projects .content{
+  padding: 4rem 0;
+  text-align: center;
+  margin: 0 auto;
+}
+
+
+.recent-projects ul {
+  text-align: center;
+  margin: 0 auto;
+  width: 50%;
+}
+
+
+.recent-projects .projects li {
+  display:inline-block;
+  padding: 0 3rem;
+text-align: center;
+}
+
+.recent-projects h2 {
+  text-align: center;
+}
+
+footer {
+  text-align: center;
+  margin: 0 auto;
+}
+
+footer li {
+  display: inline-block;
+padding-right: 2rem;
+
+}
+
+
+@media only screen and (max-width: 500px) {
+.body {
+  padding-left: 1em;
+}
+
+}
